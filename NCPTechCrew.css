@@ -1,0 +1,85 @@
+div.topbar {
+
+	font-family:Arial;
+	font-size: 32px;
+	text-align:center;
+	background-color:#800000;
+	padding:7px,silver;
+	color:silver;
+	border-style:groove;
+	border-width:10px;
+	height:100px;
+	width:1320px;
+	position:absolute;
+	
+
+
+
+}
+
+div.sidebar {
+
+	top:135px;
+	height:50px;
+	width:1320px;
+	background-color:#800000;
+	border-style:groove;
+	border-width:7px;
+	color:silver;
+	position:absolute;
+
+	
+
+}
+
+body.back {
+
+	background-color:silver;
+	text-align: center;
+	color:silver; 
+}
+
+table.navbar {
+
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	font-size: 25px;
+	color: silver;
+	width:1200px;
+
+	
+}
+
+div.content {
+
+	position:relative;
+	top:210;
+	background-color:maroon;
+	width:1320px;
+	height:1000px;
+	border-style:groove;
+	border-color:silver;
+	border-width: 7px;
+	color:silver;
+}
+
+
+div.bodybox {
+
+	background-color:silver;
+	position:absolute;
+	width:1330px;
+	height:1100px;
+
+
+}
+
+div.parentdiv1 {
+
+	position:fixed;
+	height:250px;
+	width:1330px;
+}
