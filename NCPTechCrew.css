@@ -1,85 +1,92 @@
-div.topbar {
-
-	font-family:Arial;
-	font-size: 32px;
-	text-align:center;
-	background-color:#800000;
-	padding:7px,silver;
-	color:silver;
-	border-style:groove;
-	border-width:10px;
-	height:100px;
-	width:1320px;
-	position:absolute;
-	
 
 
+div.titlebar {
 
-}
 
-div.sidebar {
-
-	top:135px;
-	height:50px;
-	width:1320px;
-	background-color:#800000;
-	border-style:groove;
-	border-width:7px;
-	color:silver;
-	position:absolute;
-
-	
-
-}
-
-body.back {
-
-	background-color:silver;
-	text-align: center;
-	color:silver; 
-}
-
-table.navbar {
-
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-top: auto;
-	font-size: 25px;
-	color: silver;
-	width:1200px;
-
-	
-}
-
-div.content {
-
-	position:relative;
-	top:210;
 	background-color:maroon;
-	width:1320px;
-	height:1000px;
-	border-style:groove;
-	border-color:silver;
-	border-width: 7px;
-	color:silver;
-}
-
-
-div.bodybox {
-
-	background-color:silver;
-	position:absolute;
-	width:1330px;
-	height:1100px;
-
+	width:100%;
+	height:5%;
+	text-align:center;
+	font-size:56px;
 
 }
 
 div.parentdiv1 {
 
+	background-color:maroon;
 	position:fixed;
-	height:250px;
-	width:1330px;
+	height:20%;
+	width:99%;
+	
+
+
+}
+
+div.javabar {
+	background-color:maroon;
+	color:silver;
+	height:5%;
+	width:99%;
+	text-align: center;
+	position:absolute;
+	top:85px;
+
+}
+
+
+body.background {
+
+	color:silver;
+
+}
+
+table.selections{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	width:80%;
+	font-size: 25px;
+	background-color:maroon;
+}
+
+div.contentbody {
+	background-color:maroon;
+	color:silver;
+	position:fixed;
+	top:150px;
+	height:100%;
+	width:99%;
+}
+
+td.homehover:hover {
+
+	background-color:silver;
+	color:maroon;
+}
+
+td.membershover:hover {
+
+	background-color: silver;
+	color:maroon;
+}
+
+td.projectshover:hover {
+
+	background-color: silver;
+	color:maroon;
+}
+
+td.resourceshover:hover {
+
+	background-color: silver;
+	color:maroon;
+}
+
+header.aboutheader{
+
+	font-size: 32px;
+	text-align: center;
+
 }
