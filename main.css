@@ -8,11 +8,14 @@ Used By: index.html [...]
 Last Edited By: Altman, Robert J.
 
 */
-
+head
+{
+	font-family: 'Time New Roman', sans-serif;	
+}
 body 
 {
 	/* Set CSS Attributes for the main elements of a page, in the body (hint: affects a lot) */
-	font-family: 'Roboto', Wasco Sans, Lucida Sans, sans-serif; /* Likely to be changed, but I love Roboto, and you'll see I linked it too in HTML, as it needs to refer to Google Fonts to grab it. */
+	font-family: 'Times New Roman', sans-serif; /* Likely to be changed, but I love Roboto, and you'll see I linked it too in HTML, as it needs to refer to Google Fonts to grab it. */
 }
 
 #sampleDiv
