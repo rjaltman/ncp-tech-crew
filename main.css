@@ -18,9 +18,19 @@ body
 	font-family: 'Times New Roman', sans-serif; /* Likely to be changed, but I love Roboto, and you'll see I linked it too in HTML, as it needs to refer to Google Fonts to grab it. */
 }
 
-#sampleDiv
+homeDiv
 {
 	/* A sample "Div ID" that shows how it is referenced in CSS so as to connect to <div> with the same ID in the actual HTML pages. */
+}
+
+barDiv
+{
+	
+}
+
+bodyDiv
+{
+	
 }
 
 .sampleClass 
