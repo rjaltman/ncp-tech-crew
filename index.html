@@ -1,46 +1,52 @@
-<!-- Hello silly doges. 
+<html> 
+    <head>
+        <title>NCP Tech Crew | Home</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="./main.css" />
+        <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+    </head>
 
-This is a comment. Open them with a less than symbol, exclamation point, and two dashes. Close it with two dashes and a greater than symbol
-
-Remember to try and implement an efficient indentation paradigm...it helps a lot.
-
-Recommended: Use Sublime Text as your editor for this project...it's really quite nice and is available for Windows, Mac, and Linux.
-
-
-
-
-INFORMATION
-______________________
-Brief Definition: The home page of the Tech Crew Web Site.
-Last Edited By: Altman, Robert J.
-
--->
-
-<html> <!-- Optional: Definition of "DOCTYPE!". Don't even worry about it for now. -->
-	
-	<head>
-		<!-- This is a place for doges to roam free, as they connect and give information about the website, among many other things, that are not PARTICULARLY shown on page. -->
-		<title>NCP Tech Crew | Home</title> <!-- This title will be seen as the text shown on a tab in a browser containing that webpage (best referred to as WOW the title) -->
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'> <!-- A whole lotta fonts, this comes straight from referencing Google for the Roboto font. It's stylin',  you'll see. -->
-		<link rel="stylesheet" type="text/css" href="./main.css" /> <!-- Link to the main CSS stylesheet. Implement a similar line for all stylesheets a page uses. -->
-	</head>
-
-	<body>
-            <div class="navBar">
-                
-            </div>
-          <!--  <table>
-                <tr>
-                <td>Member page link</td>
-                </tr>
-                <tr>
-                    <td><a href="techcrew/henry.html">nicki minaj booty</a></td>
-                </tr>
+	<body style="margin:0px;">
             
-            </table> -->
-		
-		<!-- The main content as seen on the page. As of now, this is up to you, doges. Good luck, and may the geese fly ever in your favor, people. -->
 
+            
+            <div class="navBar">
+                <img id="logo" src="images/logo.png"/>
+                <table>
+                    <tbody>
+                        <tr>
+                        <td>
+                                Main Page
+                            </td>
+                            <td><canvas id="navSpacer"></canvas></td>
+                            <td>
+                                Go Hard
+                            </td>
+                            <td><canvas id="navSpacer"></canvas></td>
+                            <td>
+                                Nicki World
+                            </td>
+                            <td><canvas id="navSpacer"></canvas></td>
+                            <td>
+                                Free Butts
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <script>
+                var c = document.getElementById("navSpacer");
+                var ctx = c.getContext("2d");
+
+                // Create gradient
+                var grd = ctx.createLinearGradient(0,0,200,0);
+                grd.addColorStop(0,"white");
+                grd.addColorStop(1,"grey");
+
+                // Fill with gradient
+                ctx.fillStyle = grd;
+                ctx.fillRect(0,0,200,200);
+           </script>
 	</body>
 
-</html> <!-- Every tag gets closed...for the most part. #Relevant -->
+</html>

@@ -1,34 +1,59 @@
-/* This is a CSS File. Open them with a forward slash and asterisk. Close them by reversing it (asterisk, then forward slash). 
+//HEY GUYS THE ABSOLUTELY SHIT FUCKING AWFUL COLORS ARE TEMPORARY
+//THANKS
 
-INFORMATION
 
-File Type: Cascading Style Sheet
-Definition: The main CSS file for the Tech Crew Web Site.
-Used By: index.html [...]
-Last Edited By: Altman, Robert J.
-
-*/
-
-body 
+body
 {
-	/* Set CSS Attributes for the main elements of a page, in the body (hint: affects a lot) */
-	font-family: 'Roboto', Wasco Sans, Lucida Sans, sans-serif; /* Likely to be changed, but I love Roboto, and you'll see I linked it too in HTML, as it needs to refer to Google Fonts to grab it. */
-        margin: 0 0 0 0
+    font-family: 'Roboto', Wasco Sans, Lucida Sans, sans-serif; 
+    margin: 0px;
 }
 
-#sampleDiv
+#logo
 {
-	/* A sample "Div ID" that shows how it is referenced in CSS so as to connect to <div> with the same ID in the actual HTML pages. */
-}
-
-.sampleClass 
-{
-	/* A sample class, which can be a style "set" that can be applied to quite a bit of elements on a page. */
+    position: absolute;
+    width: calc(75px - 8px);
+    height: calc(75px - 8px);
+    padding: 4px;
 }
 
 .navBar
 {
     width: 100%;
-    height: 200px;
+    height: 75px;
     background-color: pink;
+
+}
+
+.navBar table
+{
+    width: 40%;
+    height: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 75px;
+    text-align: center;
+    color: red;
+    border-spacing: 0px;
+    font-family: 'Josefin Slab';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navBar tr
+{
+    background-color: black;
+}
+
+.navBar td
+{
+    padding: 0 0 0 0;
+}
+
+#navSpacer
+{
+    background-color: rgba(0,0,0,0);
+    width: 7px;
+    height: calc(67px - 8px);
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
