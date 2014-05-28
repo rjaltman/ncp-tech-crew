@@ -13,6 +13,7 @@ body
 {
 	/* Set CSS Attributes for the main elements of a page, in the body (hint: affects a lot) */
 	font-family: 'Roboto', Wasco Sans, Lucida Sans, sans-serif; /* Likely to be changed, but I love Roboto, and you'll see I linked it too in HTML, as it needs to refer to Google Fonts to grab it. */
+        margin: 0 0 0 0
 }
 
 #sampleDiv
@@ -23,4 +24,11 @@ body
 .sampleClass 
 {
 	/* A sample class, which can be a style "set" that can be applied to quite a bit of elements on a page. */
+}
+
+.navBar
+{
+    width: 100%;
+    height: 200px;
+    background-color: pink;
 }
